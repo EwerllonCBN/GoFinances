@@ -50,7 +50,7 @@ export function SignIn(){
       <Header>
         <TitleWrapper>
         <LogoSvg            
-            width = {RFValue(120)}
+            width = {RFValue(12)}
             height = {RFValue(68)}
           />
 

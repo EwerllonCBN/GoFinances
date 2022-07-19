@@ -19,11 +19,10 @@ import {
   TransactionList,
   LogoutButton,
   LoadContainer
-} from './styles'
+} from './styles';
 import { HighlightCard } from '../../components/HighlightCard';
 import { TransactionsCard, TransactionsCardProps } from '../../components/TransactionCard';
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { SignIn } from '../SignIn';
 
 export interface DatalistProps extends TransactionsCardProps{
   id: string;
@@ -33,6 +32,7 @@ interface HighlightProps{
   amount: string,
   lastTransaction: string
 }
+
 interface HighlightData{
   entries: HighlightProps,
   outs: HighlightProps,
